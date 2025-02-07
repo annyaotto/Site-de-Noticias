@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff url(../img/imgg/fundo.png) repeat-x; 
+}
+
+#container1 {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../img/imgg/detalhe-topo.png) no-repeat right top;
+    padding: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../img/imgg/logo.png);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+     background: #b1033b;
+     float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(..//img/imgg/divisor.png) no-repeat left center;
+    
+}
+
+#topo ul.primeiro a {
+    background: none;
+
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home
+ {
+    color: white;
+    background: #de003e;
+    cursor: text;
+        
+}
